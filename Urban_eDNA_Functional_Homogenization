@@ -1,0 +1,14 @@
+/Urban_eDNA_Functional_Homogenization
+│
+├── README.md
+├── /data
+│   ├── asv_table.csv          <-- (Upload when sequenced)
+│   └── taxonomy_table.csv     <-- (Upload when sequenced)
+│
+├── /scripts
+│   ├── 00_Sampling_Plan_Extraction.py  <-- (The Python code we wrote)
+│   └── 01_eDNA_Functional_Analysis.R   <-- (The R script above)
+│
+└── /results
+    ├── guild_comparison_results.csv
+    └── Figure_2_Functional_Homogenization.pdf
